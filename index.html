@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- css import -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Age calculator app</title>
+
+
+    </style>
+  </head>
+  <body>
+   <div id="main-container">
+    <div id="calculator-container">
+      <div id="fields-container">
+        <form id="age-calc">
+          <div class="info-block">
+          <label for="birth-day">Dia</label>
+          <input type="number" id="birth-day" name="birth-day" min="1" max="31" required>
+          <span id="erro-dia" class="erro">Deve ser um dia válido</span>
+          </div>
+          <div class="info-block">
+          <label for="birth-month">Mês</label>
+          <input type="number" id="birth-month" name="birth-month" min="1" max="12" required>
+          <span id="erro-mes" class="erro">Deve ser um mês válido</span>
+          </div>
+          <div class="info-block">
+          <label for="birth-year">Ano</label>
+          <input type="text" id="birth-year" name="birth-year" required>
+          <span id="erro-ano" class="erro">Deve ser um ano válido</span>
+        </div>
+           
+      </form>
+      <div id="submit-button">
+        <button id="submit">
+        <img src="assets/images/icon-arrow.svg" alt="arrow icon" class="arrowbtn">
+      </button>
+      </div>
+       <hr>
+      </div>
+      <div id="age-container">
+        <h1 class="title"><span id="year" class="number">--</span> Anos</h1>
+        <h1 class="title"><span id="month" class="number" >--</span> Meses</h1>
+        <h1 class="title"><span id="day" class="number">--</span> Dias</h1>
+      </div>
+   
+    </div>
+   </div>
+   <script src="index.js" defer></script>
+   </body>
+</html>
