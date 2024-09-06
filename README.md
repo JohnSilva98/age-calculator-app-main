@@ -31,8 +31,8 @@ receber erros de validação se:
 
 ### Links
 
-- Link da Solução: [(https://www.frontendmentor.io/solutions/age-calculator-app-7Y0r4enG_q](https://www.frontendmentor.io/solutions/age-calculator-app-7Y0r4enG_q)
-- Link do projeto: [https://calc-ageapp.vercel.app/](https://calc-ageapp.vercel.app/)
+- Link da Solução: [(https://www.frontendmentor.io/solutions/age-calculator-app-7Y0r4enG_q](FrontendMentor)
+- Link do projeto: [https://calc-ageapp.vercel.app/](Vercel)
 
 ### Construído com
 
